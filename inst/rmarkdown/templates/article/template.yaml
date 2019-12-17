@@ -1,0 +1,4 @@
+name: article
+description: >
+   A template for posts to the web
+create_dir: TRUE

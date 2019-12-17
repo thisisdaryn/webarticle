@@ -1,0 +1,42 @@
+---
+title: "Awesome Title"
+author: "Daryn Ramsden"
+date: "Last updated: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_document:
+    css: article.css
+    
+---
+
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
+                      fig.align = "center")
+```
+
+## Section 1
+
+
+
+## Section 2 
+
+
+
+
+
+```{r out.width = "5%", echo = FALSE}
+knitr::include_graphics("source.jpg")
+```
+
+
+
+
+
+
+
+
+
